@@ -16,11 +16,11 @@ class Pictures extends Component {
 					<p className="legend">Legend 2</p>
 				</div>
 				<div>
-					<img src="../../../public/Images/bikes.jpg" />
+					<img src="../../../public/Images/bikes.png" />
 					<p className="legend">Bikes</p>
 				</div>
 				<div>
-					<img src="../../../public/Images/DSC02771.jpg" />
+					<img src="../../../public/Images/DSC02771.png" />
 					<p className="legend">French Alps</p>
 				</div>
 			</Carousel>
