@@ -6,9 +6,9 @@ import { Carousel } from "react-responsive-carousel";
 class Pictures extends Component {
 	render() {
 		return (
-			<Carousel autoPlay showThumbs showArrows>
+			<Carousel autoPlay showThumbs showArrows infiniteLoop>
 				<div>
-					<img src="https://picsum.photos/300/150/?random&nothing6" />
+					<img src="https://picsum.photos/300/150/?random&nothing6"  alt='nice '/>
 					<p className="legend">Legend 1</p>
 				</div>
 				<div>
@@ -16,8 +16,12 @@ class Pictures extends Component {
 					<p className="legend">Legend 2</p>
 				</div>
 				<div>
-					<img src="https://picsum.photos/300/150/?random&nothing8" />
-					<p className="legend">Legend 3</p>
+					<img src="../../../public/Images/bikes.jpg" />
+					<p className="legend">Bikes</p>
+				</div>
+				<div>
+					<img src="../../../public/Images/DSC02771.jpg" />
+					<p className="legend">French Alps</p>
 				</div>
 			</Carousel>
 		);
