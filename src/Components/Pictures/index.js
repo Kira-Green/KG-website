@@ -6,7 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 class Pictures extends Component {
 	render() {
 		return (
-			<Carousel autoPlay sho>
+			<Carousel autoPlay showThumbs showArrows>
 				<div>
 					<img src="https://picsum.photos/300/150/?random&nothing6" />
 					<p className="legend">Legend 1</p>
