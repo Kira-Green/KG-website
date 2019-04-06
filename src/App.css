@@ -2,7 +2,8 @@
   --off-white: #fafafa;
 }
 .nav {
-  background-color: var(--off-white);
+  background-color: paleturquoise;
+  border: solid 1px blue;
   position: sticky;
   top: 0px;
   width: 100%;
@@ -46,7 +47,10 @@
 
 .section {
 }
-
+.introsection {
+  background: beige;
+  color: black;
+}
 .section-dark {
   background: #333;
   color: white;

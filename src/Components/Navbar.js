@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "../logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
+import Sax from '../Images/saxophone-72-312.png';
 
 export default class Navbar extends Component {
 	scrollToTop = () => {
@@ -12,7 +13,7 @@ export default class Navbar extends Component {
 			<nav className="nav" id="navbar">
 				<div className="nav-content">
 					<img
-						src={logo}
+						src={Sax}
 						className="nav-logo"
 						alt="Logo"
 						onClick={this.scrollToTop}

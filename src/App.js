@@ -5,14 +5,15 @@ import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
 import dummyText from "./DummyText";
 import Picturesection from "../src/Components/Picturesection";
+import Introductionsection from "../src/Components/Introductionsection";
 class App extends Component {
 	render() {
 		return (
 			<div className="App">
 				<Navbar />
-				<Section
-					title="Section 1"
-					subtitle={dummyText}
+				<Introductionsection
+					title="Introduction"
+					
 					dark={true}
 					id="section1"
 				/>
