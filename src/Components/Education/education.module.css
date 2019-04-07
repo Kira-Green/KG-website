@@ -1,4 +1,18 @@
 .educationlist {
     list-style: none;
+    align-items: center;
+    white-space: pre;
+   
+
+}
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     
+
+
+}
+.columns {
+    display: flex;
 }

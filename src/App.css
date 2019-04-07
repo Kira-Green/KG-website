@@ -46,6 +46,8 @@
 }
 
 .section {
+  background: beige;
+  color: black;
 }
 .introsection {
   background: beige;

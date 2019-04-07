@@ -15,6 +15,9 @@ const Hobbies = () => {
       </p>
 
       <h3>Music</h3>
+      <p>I play saxophone and am learning the clarinet. I have done a few concerts in the past with the Dukeries Community Band, but teaching started taking
+        up too much of my time to continue. Watch this spot for my comeback!
+      </p>
        
       </div>
     );
