@@ -14,23 +14,23 @@ class Pictures extends Component {
 		return (
 			<Carousel autoPlay showThumbs showArrows infiniteLoop>
 				<div>
-					<img src={LakeLouise}  alt='nice '/>
+					<img src={LakeLouise}  alt='Lake Louise, Canada '/>
 					<p className={css.legend}>Lake Louise, Canada</p>
 				</div>
 				<div>
-					<img src={solarEclipse} />
+					<img src={solarEclipse} alt='Solar Eclipse filtered through leaves of a tree' />
 				<p className={css.legend}>Solar Eclipse filtered through leaves of a tree</p>
 				</div>
 				<div>
-					<img src={bikes}/>
+					<img src={bikes} alt='three chiildren on bikes'/>
 					<p className={css.legend}>Me and my brothers on our bikes</p>
 				</div>
 				<div>
-					<img src={FrenchAlps} />
+					<img src={FrenchAlps} alt='snowy moountain' />
 					<p className={css.legend}>French Alps</p>
 				</div>
 				<div>
-					<img src={FrenchAlps2} />
+					<img src={FrenchAlps2} alt='view from a high mountain' />
 					<p className={css.legend}>French Alps</p>
 				</div>
 			</Carousel>

@@ -52,7 +52,7 @@ export default class Navbar extends Component {
 								offset={-70}
 								duration={500}
 							>
-								Section 3
+								Hobbies
 							</Link>
 						</li>
 						<li className="nav-item">
