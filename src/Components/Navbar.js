@@ -64,7 +64,7 @@ export default class Navbar extends Component {
 								offset={-70}
 								duration={500}
 							>
-								Section 4
+								Education and work experience
 							</Link>
 						</li>
 						<li className="nav-item">

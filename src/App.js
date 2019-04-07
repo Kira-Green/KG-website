@@ -7,6 +7,7 @@ import dummyText from "./DummyText";
 import Picturesection from "../src/Components/Picturesection";
 import Introductionsection from "../src/Components/Introductionsection";
 import Hobbysection from '../src/Components/Hobbysection';
+import Educationsection from '../src/Components/Educationsection';
 class App extends Component {
 	render() {
 		return (
@@ -31,16 +32,16 @@ class App extends Component {
 					dark={true}
 					id="section3"
 				/>
-				<Section
+				<Educationsection
 					title="Education and Work Experience"
 					subtitle={dummyText}
-					dark={false}
+					dark={true}
 					id="section4"
 				/>
 				<Section
 					title="Links and Contact Info"
 					subtitle={dummyText}
-					dark={true}
+					dark={false}
 					id="section5"
 				/>
 			</div>
