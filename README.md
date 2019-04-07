@@ -1,11 +1,6 @@
-# React With Smooth Scrolling
+# My Profile Website
+I started making this by following a tutorial on smooth scrolling to set up the basic structure of the site
+I then added my own sections 
+I used a library for the photo carousel
 
-![React with Smooth Scrolling](./images/cover.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## To Run
-
-- clone this repository
-- run `npm install`
-- run `npm start`
