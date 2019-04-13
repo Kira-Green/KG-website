@@ -21,7 +21,7 @@ const Contact = () => {
       <a href='https://www.linkedin.com/in/kira-green-70500b92/' target='_blank'>And on linkedin </a>
       <br />
       <br />
-      <p>Email me: kira.green@btinternet.com </p>
+      <p>Email me: <a href="mailto:kira.green@btinternet.com">kira.green@btinternet.com </a> </p>
              
       </div>
     );
