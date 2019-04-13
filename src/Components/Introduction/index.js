@@ -5,7 +5,7 @@ import css from '../Introduction/introduction.module.css';
 const Introduction = () => {
     return (
       <div className="css.introduction">
-        <h1>Kira Green</h1>
+        
         <p>After many years teaaching maths in secondary schools I decided to take a leap into the unknown, leave teaching and pursue a career in tech. 
             I found the School of Code, applied and got a place on the amazing free course in web development. I have blogged about my experiences on the course on medium. 
            
@@ -23,7 +23,7 @@ const Introduction = () => {
                          to a small town near Madrid to teach English. I ended up living there for six years.
                  </p>
                  <img src="https://admin.freetour.com/images/tours/4622/medieval-walk-in-alcal%C3%A1-de-henares--04.jpg"
-                 alt="view of Alcala de Henares" />
+                 alt="view of Alcala de Henares" className="pictures"/>
       </div>
     );
   };

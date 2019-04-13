@@ -15,7 +15,7 @@ class App extends Component {
 			<div className="App">
 				<Navbar />
 				<Introductionsection
-					title="Introduction"
+					title="Profile"
 					
 					dark={true}
 					id="section1"
