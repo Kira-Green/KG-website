@@ -18,7 +18,7 @@ const Contact = () => {
 
       <br/>
       <br />
-      <a href='https://github.com/Kira-Greenhttps://www.linkedin.com/in/kira-green-70500b92/' target='_blank'>And on linkedin </a>
+      <a href='https://www.linkedin.com/in/kira-green-70500b92/' target='_blank'>And on linkedin </a>
       <br />
       <br />
       <p>Email me: kira.green@btinternet.com </p>

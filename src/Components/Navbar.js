@@ -8,17 +8,28 @@ export default class Navbar extends Component {
 		scroll.scrollToTop();
 	};
 
+	 classToggle =()=> {
+		 console.log('in classtoggle')
+		const navs = document.querySelectorAll('.nav-items')
+		
+		navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+	  }
+	  
+
 	render() {
 		return (
 			<nav className="nav" id="navbar">
+			
 				<div className="nav-content">
+				
 					<img
 						src={Sax}
 						className="nav-logo"
 						alt="Logo"
 						onClick={this.scrollToTop}
 					/>
-					<ul className="nav-items">
+					<h1>Kira Green</h1>
+					<nav className="nav-items">
 						<li className="nav-item">
 							<Link
 								activeClass="active"
@@ -28,7 +39,7 @@ export default class Navbar extends Component {
 								offset={-70}
 								duration={500}
 							>
-								Introduction
+								Profile
 							</Link>
 						</li>
 						<li className="nav-item">
@@ -64,7 +75,7 @@ export default class Navbar extends Component {
 								offset={-70}
 								duration={500}
 							>
-								Education and work experience
+								Experience
 							</Link>
 						</li>
 						<li className="nav-item">
@@ -76,10 +87,10 @@ export default class Navbar extends Component {
 								offset={-70}
 								duration={500}
 							>
-								Links and Contact Info
+								Links 
 							</Link>
 						</li>
-					</ul>
+					</nav>
 				</div>
 			</nav>
 		);
