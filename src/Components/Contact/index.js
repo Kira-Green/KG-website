@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import linkedin from "../../Images/linkedin.png"
 
 
 
@@ -18,7 +19,8 @@ const Contact = () => {
 
       <br/>
       <br />
-      <a href='https://www.linkedin.com/in/kira-green-70500b92/' target='_blank'>And on linkedin </a>
+      
+      <a href='https://www.linkedin.com/in/kira-green-70500b92/' target='_blank' ><img src={linkedin} /> </a>
       <br />
       <br />
       <p>Email me: <a href="mailto:kira.green@btinternet.com">kira.green@btinternet.com </a> </p>
