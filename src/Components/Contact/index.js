@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import linkedin from "../../Images/linkedin.png"
+import medium from '../../Images/medium.png'
+import github from '../../Images/GitHub_Logo.png'
 
 
 
@@ -10,12 +12,13 @@ import linkedin from "../../Images/linkedin.png"
 const Contact = () => {
     return (
       <div className='contact'>
-      <a href="https://medium.com/@kira.green" target="_blank" > Find me on medium</a>
+      <p>Check out my blog on Medium and my work on GitHub. You can contact me via Linkedin or email.</p>
+      <a href="https://medium.com/@kira.green" target="_blank" ><img className ='medium' src= {medium}/></a>
       <br />
       <br />
 
 
-      <a href='https://github.com/Kira-Green' target='_blank'>On GitHub </a>
+      <a href='https://github.com/Kira-Green' target='_blank'><img className='github' src={github} /> </a>
 
       <br/>
       <br />

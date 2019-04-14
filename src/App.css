@@ -2,8 +2,8 @@
 	--off-white: #fafafa;
 }
 .nav {
-	background-color: paleturquoise;
-	border: solid 1px blue;
+	background-color: #ea1d25;
+	color: white;
 	position: sticky;
 	top: 0px;
 	width: 100%;
@@ -36,7 +36,8 @@
 .nav-item {
 	display: inline;
 	margin-left: 2rem;
-	color: #333;
+	color: white;
+	/* color: #333; */
 }
 
 .nav-item:hover {
@@ -70,11 +71,11 @@
   }
 
 .section {
-	background: beige;
+	background: white;
 	color: black;
 }
 .introsection {
-	background: beige;
+	background: white;
 	color: black;
 }
 .section-dark {
@@ -91,4 +92,10 @@
 	width: 70vw;
 
 }
-
+.medium{
+	height: 30px;
+	
+}
+.github {
+	height: 36px;
+}
