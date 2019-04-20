@@ -11,8 +11,13 @@
     align-items: flex-start;
     
 
-
 }
 .columns {
     display: flex;
+}
+@media only screen and (max-width: 785px) {
+    .columns {
+        display: flow-root;
+    }
+   
 }

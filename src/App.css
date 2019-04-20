@@ -1,5 +1,6 @@
 :root {
 	--off-white: #fafafa;
+	overflow: hidden;
 }
 .nav {
 	background-color: #ea1d25;
