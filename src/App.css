@@ -1,5 +1,6 @@
 :root {
 	--off-white: #fafafa;
+	overflow-x: hidden;
 }
 .nav {
 	background-color: #ea1d25;
@@ -82,7 +83,10 @@
 	background: #333;
 	color: white;
 }
-
+.projectsection {
+	background: black;
+	color: white;
+}
 .section-content {
 	max-width: 800px;
 	margin: 0 auto;

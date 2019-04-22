@@ -9,6 +9,7 @@ import Introductionsection from "../src/Components/Introductionsection";
 import Hobbysection from '../src/Components/Hobbysection';
 import Educationsection from '../src/Components/Educationsection';
 import Contactsection from '../src/Components/Contactsection';
+import Projectsection from '../src/Components/Projectsection'
 class App extends Component {
 	render() {
 		return (
@@ -38,6 +39,12 @@ class App extends Component {
 					subtitle={dummyText}
 					dark={true}
 					id="section4"
+				/>
+				<Projectsection
+					title="Projects"
+					subtitle={dummyText}
+					dark={false}
+					id="section6"
 				/>
 				<Contactsection
 					title="Links and Contact Info"
