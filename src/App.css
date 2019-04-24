@@ -44,6 +44,7 @@
 .nav-item:hover {
 	color: black;
 	cursor: pointer;
+	font-size: 30px;
 }
 @media only screen and (max-width: 768px) {
 	.nav-items{
@@ -76,11 +77,20 @@
 	color: black;
 }
 .introsection {
-	background: white;
-	color: black;
+	background-image: url("./Images/solarEclipse.jpg");
+	/* background-image: url("./Images/diamond.jpg"); */
+    background-size: cover;
+	color: white;
+	height: 100vh;
+	width: 100vw;
+}
+.home-name {
+	font-family: 'Courgette', serif;
+		font-size: 58px;
+		font-weight: 300;
 }
 .section-dark {
-	background: #333;
+	background: black;
 	color: white;
 }
 .projectsection {

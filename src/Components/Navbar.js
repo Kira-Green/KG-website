@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import logo from "../logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
-import Sax from '../Images/saxophone-72-312.png';
+
+import homeicon from '../Images/icons8-home-52.png'
 
 export default class Navbar extends Component {
 	scrollToTop = () => {
@@ -23,14 +24,14 @@ export default class Navbar extends Component {
 				<div className="nav-content">
 				
 					<img
-						src={Sax}
+						src={homeicon}
 						className="nav-logo"
 						alt="Logo"
 						onClick={this.scrollToTop}
 					/>
-					<h1>Kira Green</h1>
+					{/* <h1>Kira Green</h1> */}
 					<nav className="nav-items">
-						<li className="nav-item">
+						<li className="nav-item" >
 							<Link
 								activeClass="active"
 								to="section1"
@@ -39,7 +40,31 @@ export default class Navbar extends Component {
 								offset={-70}
 								duration={500}
 							>
-								Profile
+								Home
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link
+								activeClass="active"
+								to="section7"
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={500}
+							>
+								Skills
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link
+								activeClass="active"
+								to="section6"
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={500}
+							>
+								Projects
 							</Link>
 						</li>
 						<li className="nav-item">
@@ -78,18 +103,7 @@ export default class Navbar extends Component {
 								Experience
 							</Link>
 						</li>
-						<li className="nav-item">
-							<Link
-								activeClass="active"
-								to="section6"
-								spy={true}
-								smooth={true}
-								offset={-70}
-								duration={500}
-							>
-								Projects
-							</Link>
-						</li>
+						
 						<li className="nav-item">
 							<Link
 								activeClass="active"
