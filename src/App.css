@@ -38,6 +38,7 @@
 	display: inline;
 	margin-left: 2rem;
 	color: white;
+	transition: 300ms ease-in-out;
 	/* color: #333; */
 }
 
@@ -47,17 +48,17 @@
 	font-size: 30px;
 }
 @media only screen and (max-width: 768px) {
-	.nav-items{
+	.nav-items {
 		flex-direction: row;
 		flex-wrap: wrap;
-		display:flex;
+		display: flex;
 	}
 	/* .nav-content {
 	  /* flex-direction: row;
 	  flex-wrap: wrap; */
-	  /* display:flex;
-	} */ 
-	.nav-item{
+	/* display:flex;
+	} */
+	.nav-item {
 		display: flex;
 		flex-wrap: wrap;
 	}
@@ -66,11 +67,10 @@
 	}
 	.pictures {
 		width: 75vw;
-		
+
 		align-self: center;
 	}
-	
-  }
+}
 
 .section {
 	background: white;
@@ -79,15 +79,30 @@
 .introsection {
 	background-image: url("./Images/solarEclipse.jpg");
 	/* background-image: url("./Images/diamond.jpg"); */
-    background-size: cover;
+	background-size: auto cover;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: center;
 	color: white;
 	height: 100vh;
 	width: 100vw;
 }
 .home-name {
-	font-family: 'Courgette', serif;
-		font-size: 58px;
-		font-weight: 300;
+	font-family: "Courgette", serif;
+	font-size: 58px;
+	font-weight: 300;
+	display: flex;
+	/* justify-content: center;
+	align-items: center; */
+	padding-top: 30%;
+	padding-left: 30%;
+}
+p {
+	display: flex;
+	justify-content: end;
+	align-items: baseline;
+	padding-left: 70%;
+	padding-bottom: -20%;
 }
 .section-dark {
 	background: black;
@@ -104,11 +119,9 @@
 }
 .images {
 	width: 70vw;
-
 }
-.medium{
+.medium {
 	height: 30px;
-	
 }
 .github {
 	height: 36px;
