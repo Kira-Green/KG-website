@@ -6,7 +6,7 @@ import css from "./contact.module.css";
 
 const Contact = () => {
 	return (
-		<div className={css.contact}>
+		<span className={css.contact}>
 			{/* <p>Check out my blog on Medium and my work on GitHub. You can contact me via Linkedin or email.</p> */}
 			<a href="https://medium.com/@kira.green" target="_blank">
 				<img className={css.medium} src={medium} />
@@ -30,13 +30,13 @@ const Contact = () => {
 			</a>
 			<br />
 			<br />
-			<div className={css.email}>
+			<span className={css.email}>
 				Email me:{" "}
 				<a href="mailto:kira.green@btinternet.com">
 					kira.green@btinternet.com{" "}
 				</a>{" "}
-			</div>
-		</div>
+			</span>
+		</span>
 	);
 };
 
