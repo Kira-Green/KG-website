@@ -40,15 +40,12 @@
 	color: white;
 	transition: 300ms ease-in-out;
 	/* color: #333; */
-	
-
 }
 
 .nav-item:hover {
 	color: black;
 	cursor: pointer;
 	font-size: 20px;
-
 }
 @media only screen and (max-width: 768px) {
 	.nav-items {
@@ -64,7 +61,6 @@
 	.nav-item {
 		display: flex;
 		flex-wrap: wrap;
-
 	}
 	.nav-logo {
 		margin-left: 0%;
@@ -92,35 +88,39 @@
 	width: 100vw;
 	display: flex;
 	justify-content: center;
-	flex-direction:  column;
+	align-items: center;
+	flex-direction: column;
 }
 .homeText {
-	display: flex;
+	position: relative;
+	left: 640px;
+	/* display: flex;
 	justify-content: center;
-	flex-direction: column; 
+	flex-direction: column;
 	/* height: 50%;
 	width: 50%; */
-	transform: translateX(42%);
+	/* transform: translateX(42%); */
 	/* transform: translateY(-5%); */
-	padding-top: 2%;
+	/* padding-top: 2%; */
 }
 .homeName {
 	font-family: "Courgette", serif;
 	font-size: 58px;
 	font-weight: 250;
-	display: flex;
-	
+	display: inline-block;
 }
 .homeJob {
 	font-size: 40px;
 	padding-top: 2%;
 }
-p {
-	display: flex;
+.photocredit {
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	/* display: flex;
 	justify-content: end;
 	align-self: flex-end;
-	 padding-right: 10%;
-	 	
+	padding-right: 10%; */
 }
 .section-dark {
 	background: black;
