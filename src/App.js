@@ -6,20 +6,32 @@ import Section from "./Components/Section";
 import dummyText from "./DummyText";
 import Picturesection from "../src/Components/Picturesection";
 import Introductionsection from "../src/Components/Introductionsection";
-import Hobbysection from '../src/Components/Hobbysection';
-import Educationsection from '../src/Components/Educationsection';
-import Contactsection from '../src/Components/Contactsection';
-import Projectsection from '../src/Components/Projectsection'
+import Hobbysection from "../src/Components/Hobbysection";
+import Educationsection from "../src/Components/Educationsection";
+import Contactsection from "../src/Components/Contactsection";
+import Projectsection from "../src/Components/Projectsection";
+import Skillssection from "../src/Components/Skillssection";
 class App extends Component {
 	render() {
 		return (
 			<div className="App">
 				<Navbar />
 				<Introductionsection
-					title="Profile"
-					
+					title="Kira Green"
 					dark={true}
 					id="section1"
+				/>
+				<Skillssection
+					title="Skills"
+					subtitle={dummyText}
+					dark={true}
+					id="section7"
+				/>
+				<Projectsection
+					title="Projects"
+					subtitle={dummyText}
+					dark={false}
+					id="section6"
 				/>
 				<Picturesection
 					title="Photos"
@@ -35,17 +47,12 @@ class App extends Component {
 					id="section3"
 				/>
 				<Educationsection
-					title="Education and Work Experience"
+					title="Experience"
 					subtitle={dummyText}
 					dark={true}
 					id="section4"
 				/>
-				<Projectsection
-					title="Projects"
-					subtitle={dummyText}
-					dark={false}
-					id="section6"
-				/>
+
 				<Contactsection
 					title="Links and Contact Info"
 					subtitle={dummyText}

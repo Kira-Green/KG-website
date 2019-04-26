@@ -38,25 +38,23 @@
 	display: inline;
 	margin-left: 2rem;
 	color: white;
+	transition: 300ms ease-in-out;
 	/* color: #333; */
 }
 
 .nav-item:hover {
 	color: black;
 	cursor: pointer;
+	font-size: 20px;
 }
 @media only screen and (max-width: 768px) {
-	.nav-items{
+	.nav-items {
 		flex-direction: row;
 		flex-wrap: wrap;
-		display:flex;
+		display: flex;
 	}
-	/* .nav-content {
-	  /* flex-direction: row;
-	  flex-wrap: wrap; */
-	  /* display:flex;
-	} */ 
-	.nav-item{
+
+	.nav-item {
 		display: flex;
 		flex-wrap: wrap;
 	}
@@ -65,22 +63,71 @@
 	}
 	.pictures {
 		width: 75vw;
-		
+
 		align-self: center;
 	}
-	
-  }
+}
+h1 {
+	font-family: "Courgette", serif;
+	font-size: 58px;
+	font-weight: 200;
+}
 
 .section {
 	background: white;
 	color: black;
 }
+.homeContainer {
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
 .introsection {
-	background: white;
-	color: black;
+	background-image: url("./Images/solarEclipse.jpg");
+	/* background-image: url("./Images/diamond.jpg"); */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: center;
+	color: white;
+	height: 98vh;
+	width: 80vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 1vw;
+}
+/* .homeText {
+	position: relative;
+	left: 640px;
+} */
+.homeName {
+	margin-right: 2vw;
+	font-family: "Courgette", serif;
+	font-size: 5vw;
+	font-weight: 200;
+	display: inline-block;
+}
+.homeJob {
+	margin-right: 1vw;
+	font-size: 4vw;
+	padding-top: 2%;
+}
+.photocredit {
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	font-size: 1vw;
+	/* display: flex;
+	justify-content: end;
+	align-self: flex-end;
+	padding-right: 10%; */
 }
 .section-dark {
-	background: #333;
+	background: black;
 	color: white;
 }
 .projectsection {
@@ -94,11 +141,9 @@
 }
 .images {
 	width: 70vw;
-
 }
-.medium{
+.medium {
 	height: 30px;
-	
 }
 .github {
 	height: 36px;

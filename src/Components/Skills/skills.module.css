@@ -1,0 +1,147 @@
+.skills {
+	position: relative;
+	display: flex;
+	font-size: 2.5vw;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.icons {
+	height: 100px;
+	padding: 50px 30px;
+	position: relative;
+}
+.css3 {
+	position: relative;
+}
+.css3:before {
+	content: "CSS3";
+	position: absolute;
+	bottom: -20px;
+	transition: 200ms;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+}
+.css3:hover:before {
+	transform: translateX(-50%) scale(1);
+}
+
+.html {
+	position: relative;
+}
+.html:before {
+	content: "HTML";
+	position: absolute;
+	bottom: -20px;
+	transition: 200ms;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+}
+.html:hover:before {
+	transform: translateX(-50%) scale(1);
+}
+
+.js {
+	position: relative;
+}
+.js:before {
+	content: "JavaScript";
+	position: absolute;
+	bottom: -20px;
+	transition: 200ms;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+}
+.js:hover:before {
+	transform: translateX(-50%) scale(1);
+}
+.node {
+	position: relative;
+}
+.node:before {
+	content: "Node.js";
+	position: absolute;
+	bottom: -20px;
+	transition: 200ms;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+}
+.node:hover:before {
+	transform: translateX(-50%) scale(1);
+}
+
+.react {
+	position: relative;
+}
+.react:before {
+	content: "React.js";
+	position: absolute;
+	bottom: -20px;
+
+	transition: 200ms;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+}
+.react:hover:before {
+	transform: translateX(-50%) scale(1);
+}
+
+.express {
+	position: relative;
+}
+.express:before {
+	content: "Express";
+	position: absolute;
+	bottom: -20px;
+
+	transition: 200ms;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+}
+.express:hover:before {
+	transform: translateX(-50%) scale(1);
+}
+.git {
+	position: relative;
+}
+.git:before {
+	content: "Git";
+	position: absolute;
+	bottom: -20px;
+	transition: 200ms;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+}
+.git:hover:before {
+	transform: translateX(-50%) scale(1);
+}
+
+.github {
+	position: relative;
+}
+.github:before {
+	content: "GitHub";
+	position: absolute;
+	bottom: -20px;
+	transition: 200ms;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+}
+.github:hover:before {
+	transform: translateX(-50%) scale(1);
+}
+
+.mongo {
+	position: relative;
+}
+.mongo:before {
+	content: "MongoDB";
+	position: absolute;
+	bottom: -20px;
+	transition: 200ms;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+}
+.mongo:hover:before {
+	transform: translateX(-50%) scale(1);
+}
