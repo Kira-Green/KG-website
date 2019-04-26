@@ -1,23 +1,29 @@
 .educationlist {
-    list-style: none;
-    align-items: center;
-    white-space: pre;
-      
-
+	list-style: none;
+	align-items: center;
+	white-space: pre;
 }
 .education {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
-
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 .columns {
-    display: flex;
+	display: flex;
 }
 @media only screen and (max-width: 785px) {
-    .columns {
-        display: flow-root;
-    }
-   
+	.columns {
+		display: flow-root;
+	}
+}
+
+.pBox {
+	border: ridge 1px white;
+	padding: 10px;
+}
+
+.pTitle {
+	font-family: "Courgette", serif;
+	font-size: 2vw;
+	margin-top: 0px;
 }

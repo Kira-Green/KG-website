@@ -6,11 +6,11 @@ import Section from "./Components/Section";
 import dummyText from "./DummyText";
 import Picturesection from "../src/Components/Picturesection";
 import Introductionsection from "../src/Components/Introductionsection";
-import Hobbysection from '../src/Components/Hobbysection';
-import Educationsection from '../src/Components/Educationsection';
-import Contactsection from '../src/Components/Contactsection';
-import Projectsection from '../src/Components/Projectsection'
-import Skillssection from '../src/Components/Skillssection'
+import Hobbysection from "../src/Components/Hobbysection";
+import Educationsection from "../src/Components/Educationsection";
+import Contactsection from "../src/Components/Contactsection";
+import Projectsection from "../src/Components/Projectsection";
+import Skillssection from "../src/Components/Skillssection";
 class App extends Component {
 	render() {
 		return (
@@ -18,7 +18,6 @@ class App extends Component {
 				<Navbar />
 				<Introductionsection
 					title="Kira Green"
-					
 					dark={true}
 					id="section1"
 				/>
@@ -48,12 +47,12 @@ class App extends Component {
 					id="section3"
 				/>
 				<Educationsection
-					title="Education and Work Experience"
+					title="Experience"
 					subtitle={dummyText}
 					dark={true}
 					id="section4"
 				/>
-				
+
 				<Contactsection
 					title="Links and Contact Info"
 					subtitle={dummyText}
