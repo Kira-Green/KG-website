@@ -9,7 +9,7 @@
 	top: 0px;
 	width: 100%;
 	height: 80px;
-	z-index: 1000;
+	z-index: 1;
 	box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 }
 .nav-logo {
@@ -53,11 +53,7 @@
 		flex-wrap: wrap;
 		display: flex;
 	}
-	/* .nav-content {
-	  /* flex-direction: row;
-	  flex-wrap: wrap; */
-	/* display:flex;
-	} */
+
 	.nav-item {
 		display: flex;
 		flex-wrap: wrap;
@@ -71,52 +67,60 @@
 		align-self: center;
 	}
 }
+h1 {
+	font-family: "Courgette", serif;
+	font-size: 58px;
+	font-weight: 200;
+}
 
 .section {
 	background: white;
 	color: black;
 }
+.homeContainer {
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
 .introsection {
 	background-image: url("./Images/solarEclipse.jpg");
 	/* background-image: url("./Images/diamond.jpg"); */
-	background-size: auto cover;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: black;
 	background-position: center;
 	color: white;
-	height: 100vh;
-	width: 100vw;
+	height: 98vh;
+	width: 80vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	margin-left: 1vw;
 }
-.homeText {
+/* .homeText {
 	position: relative;
 	left: 640px;
-	/* display: flex;
-	justify-content: center;
-	flex-direction: column;
-	/* height: 50%;
-	width: 50%; */
-	/* transform: translateX(42%); */
-	/* transform: translateY(-5%); */
-	/* padding-top: 2%; */
-}
+} */
 .homeName {
+	margin-right: 2vw;
 	font-family: "Courgette", serif;
-	font-size: 58px;
-	font-weight: 250;
+	font-size: 5vw;
+	font-weight: 200;
 	display: inline-block;
 }
 .homeJob {
-	font-size: 40px;
+	margin-right: 1vw;
+	font-size: 4vw;
 	padding-top: 2%;
 }
 .photocredit {
 	position: absolute;
 	right: 10px;
 	bottom: 0;
+	font-size: 1vw;
 	/* display: flex;
 	justify-content: end;
 	align-self: flex-end;
