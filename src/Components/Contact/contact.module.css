@@ -11,13 +11,13 @@
 	padding-top: 30px;
 }
 .github {
-	height: 45px;
-	padding-top: 30px;
+	height: 50px;
+	padding-top: 20px;
 }
 .linkedin {
 	padding-top: 40px;
 }
 .email {
-	max-width: 512px;
+	max-width: 500px;
 	overflow-x: hidden;
 }
