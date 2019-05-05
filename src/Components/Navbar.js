@@ -113,7 +113,7 @@ export default class Navbar extends Component {
 								offset={-70}
 								duration={500}
 							>
-								Links 
+								Contact
 							</Link>
 						</li>
 					</nav>
