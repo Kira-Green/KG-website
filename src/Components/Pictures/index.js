@@ -3,16 +3,16 @@ import css from "../Pictures/pictures.module.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import bikes from "../../Images/bikes.jpg";
-import FrenchAlps from "../../Images/frenchalps.jpg";
+import FrenchAlps from "../../Images/FrenchAlps.jpg";
 import FrenchAlps2 from "../../Images/frenchalps2.jpg";
 import LakeLouise from "../../Images/lakeLousie.jpg";
 import solarEclipse from "../../Images/solarLeaves.jpg";
-import coigach from "../../Images/coigach.jpg";
-import familyHighlands from "../../Images/familyhighlands.jpg";
-import grandCanyon from "../../Images/grandcanyon.jpg";
+import coigach from "../../Images/Coigach.jpg";
+import familyHighlands from "../../Images/familyHighlands.jpg";
+import grandCanyon from "../../Images/GrandCanyon.jpg";
 
-import grandprismatic from "../../Images/grandprismatic.jpg";
-import oldFaithful from "../../Images/oldfaithful.jpg";
+import grandprismatic from "../../Images/GrandPrismatic.jpg";
+import oldFaithful from "../../Images/OldFaithful.jpg";
 
 class Pictures extends Component {
 	render() {
