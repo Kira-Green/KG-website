@@ -33,12 +33,13 @@ class App extends Component {
 					dark={false}
 					id="section6"
 				/>
-				<Picturesection
-					title="Photos"
-					subtitle={dummyText}
-					dark={true}
-					id="section2"
-				/>
+
+<Educationsection
+	title="Experience"
+	subtitle={dummyText}
+	dark={true}
+	id="section4"
+/>
 
 				<Hobbysection
 					title="Hobbies"
@@ -46,11 +47,11 @@ class App extends Component {
 					dark={true}
 					id="section3"
 				/>
-				<Educationsection
-					title="Experience"
+				<Picturesection
+					title="Photos"
 					subtitle={dummyText}
 					dark={true}
-					id="section4"
+					id="section2"
 				/>
 
 				<Contactsection

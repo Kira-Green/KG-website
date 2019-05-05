@@ -15,7 +15,7 @@ const Contact = () => {
 			<br />
 
 			<a href="https://github.com/Kira-Green" target="_blank">
-				<img className={css.github} src={github} alt='github'/>{" "}
+				<img className={css.github} src={github} alt='github'/>
 			</a>
 
 			<br />
@@ -27,15 +27,15 @@ const Contact = () => {
 				className={css.linkedin}
 				alt='linkedin'
 			>
-				<img src={linkedin} />{" "}
+				<img src={linkedin} />
 			</a>
 			<br />
 			<br />
 			<span className={css.email}>
-				Email me:{" "}
+				Email me:
 				<a href="mailto:kira.green@btinternet.com">
-					kira.green@btinternet.com{" "}
-				</a>{" "}
+					kira.green@btinternet.com
+				</a>
 			</span>
 		</span>
 	);
