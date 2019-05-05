@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-
+import css from './projects.module.css'
 const Projects = () => {
     return(
-<div>
+<div className={css.projectsPage}>
     <h2>Talent Grid</h2>
     <p>In week 8 of the bootcamp we did a week long project for a major bank working in teams of 4. The project was introduced on day 1, with the rest of that day taken up
         with planning. We only had 3 days of coding and testing as on the Friday we presented our work to the project sponsors.
