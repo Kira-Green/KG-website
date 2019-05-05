@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import css from "./skills.module.css";
-import cssIcon from "../../Images/css.svg";
+
 import htmlIcon from "../../Images/html.svg";
 import jsIcon from "../../Images/javascript.svg";
 import nodeIcon from "../../Images/node.svg";
@@ -15,31 +15,31 @@ const Skills = () => {
 	return (
 		<div className={css.skills}>
 			<div className={css.css3}>
-				<img className={css.icons} src={css3Icon} />{" "}
+				<img className={css.icons} src={css3Icon} alt='css3'/>{" "}
 			</div>
 			<div className={css.html}>
-				<img className={css.icons} src={htmlIcon} />
+				<img className={css.icons} src={htmlIcon} alt='html'/>
 			</div>
 			<div className={css.js}>
-				<img className={css.icons} src={jsIcon} />
+				<img className={css.icons} src={jsIcon} alt='js'/>
 			</div>
 			<div className={css.node}>
-				<img className={css.icons} src={nodeIcon} />
+				<img className={css.icons} src={nodeIcon} alt='node'/>
 			</div>
 			<div className={css.react}>
-				<img className={css.icons} src={reactIcon} />
+				<img className={css.icons} src={reactIcon} alt='react' />
 			</div>
 			<div className={css.express}>
-				<img className={css.icons} src={expressIcon} />
+				<img className={css.icons} src={expressIcon} alt='express'/>
 			</div>
 			<div className={css.git}>
-				<img className={css.icons} src={gitIcon} />
+				<img className={css.icons} src={gitIcon} alt='git' />
 			</div>
 			<div className={css.github}>
-				<img className={css.icons} src={githubIcon} />
+				<img className={css.icons} src={githubIcon} alt='github' />
 			</div>
 			<div className={css.mongo}>
-				<img className={css.icons} src={mongoIcon} />
+				<img className={css.icons} src={mongoIcon}alt='mongo' />
 			</div>
 		</div>
 	);

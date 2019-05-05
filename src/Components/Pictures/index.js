@@ -3,16 +3,16 @@ import css from "../Pictures/pictures.module.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import bikes from "../../Images/bikes.jpg";
-import FrenchAlps from "../../Images/FrenchAlps.jpg";
-import FrenchAlps2 from "../../Images/French Alps2.jpg";
-import LakeLouise from "../../Images/Lake Louise.JPG";
-import solarEclipse from "../../Images/solar eclipse.JPG";
-import coigach from "../../Images/Coigach.jpg";
-import familyHighlands from "../../Images/familyHighlands.jpg";
-import grandCanyon from "../../Images/GrandCanyon.jpg";
-import halfDome from "../../Images/HalfDome.JPG";
-import grandprismatic from "../../Images/GrandPrismatic.jpg";
-import oldFaithful from "../../Images/OldFaithful.jpg";
+import FrenchAlps from "../../Images/frenchalps.jpg";
+import FrenchAlps2 from "../../Images/frenchalps2.jpg";
+import LakeLouise from "../../Images/lakeLousie.jpg";
+import solarEclipse from "../../Images/solarLeaves.jpg";
+import coigach from "../../Images/coigach.jpg";
+import familyHighlands from "../../Images/familyhighlands.jpg";
+import grandCanyon from "../../Images/grandcanyon.jpg";
+
+import grandprismatic from "../../Images/grandprismatic.jpg";
+import oldFaithful from "../../Images/oldfaithful.jpg";
 
 class Pictures extends Component {
 	render() {
@@ -33,10 +33,7 @@ class Pictures extends Component {
 					/>
 					<p className={css.legend}>Grand Prismatic Spring, USA</p>
 				</div>
-				{/* <div>
-					<img src={halfDome} alt="Half Dome, USA " />
-					<p className={css.legend}>Half Dome, USA</p>
-				</div> */}
+				
 				<div>
 					<img src={grandCanyon} alt="Grand Canyon, USA " />
 					<p className={css.legend}>Grand Canyon, USA</p>

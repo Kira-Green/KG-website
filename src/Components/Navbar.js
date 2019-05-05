@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../logo.svg";
+
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import homeicon from '../Images/icons8-home-52.png'
@@ -113,7 +113,7 @@ export default class Navbar extends Component {
 								offset={-70}
 								duration={500}
 							>
-								Links 
+								Contact
 							</Link>
 						</li>
 					</nav>

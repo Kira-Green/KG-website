@@ -9,13 +9,13 @@ const Contact = () => {
 		<span className={css.contact}>
 			{/* <p>Check out my blog on Medium and my work on GitHub. You can contact me via Linkedin or email.</p> */}
 			<a href="https://medium.com/@kira.green" target="_blank">
-				<img className={css.medium} src={medium} />
+				<img className={css.medium} src={medium} alt='medium' />
 			</a>
 			<br />
 			<br />
 
 			<a href="https://github.com/Kira-Green" target="_blank">
-				<img className={css.github} src={github} />{" "}
+				<img className={css.github} src={github} alt='github'/>{" "}
 			</a>
 
 			<br />
@@ -25,6 +25,7 @@ const Contact = () => {
 				href="https://www.linkedin.com/in/kira-green-70500b92/"
 				target="_blank"
 				className={css.linkedin}
+				alt='linkedin'
 			>
 				<img src={linkedin} />{" "}
 			</a>
