@@ -19,5 +19,12 @@
 }
 .email {
 	max-width: 60%;
-	overflow-x: hidden;
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+	.email  {
+		font-size: 20px;
+
+	}
 }

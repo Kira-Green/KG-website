@@ -67,30 +67,7 @@ export default class Navbar extends Component {
 								Projects
 							</Link>
 						</li>
-						<li className="nav-item">
-							<Link
-								activeClass="active"
-								to="section2"
-								spy={true}
-								smooth={true}
-								offset={-70}
-								duration={500}
-							>
-								Photos
-							</Link>
-						</li>
-						<li className="nav-item">
-							<Link
-								activeClass="active"
-								to="section3"
-								spy={true}
-								smooth={true}
-								offset={-70}
-								duration={500}
-							>
-								Hobbies
-							</Link>
-						</li>
+
 						<li className="nav-item">
 							<Link
 								activeClass="active"
@@ -103,6 +80,33 @@ export default class Navbar extends Component {
 								Experience
 							</Link>
 						</li>
+						
+						<li className="nav-item">
+							<Link
+								activeClass="active"
+								to="section3"
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={500}
+							>
+								Hobbies
+							</Link>
+						</li>
+
+						<li className="nav-item">
+							<Link
+								activeClass="active"
+								to="section2"
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={500}
+							>
+								Photos
+							</Link>
+						</li>
+						
 						
 						<li className="nav-item">
 							<Link
