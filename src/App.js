@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
-import dummyText from "./DummyText";
+// import dummyText from "./DummyText";
 import Picturesection from "../src/Components/Picturesection";
 import Introductionsection from "../src/Components/Introductionsection";
 import Hobbysection from "../src/Components/Hobbysection";
@@ -23,40 +23,40 @@ class App extends Component {
 				/>
 				<Skillssection
 					title="Skills"
-					subtitle={dummyText}
+					// subtitle={dummyText}
 					dark={true}
 					id="section7"
 				/>
 				<Projectsection
 					title="Projects"
-					subtitle={dummyText}
+					// subtitle={dummyText}
 					dark={false}
 					id="section6"
 				/>
 
 <Educationsection
 	title="Experience"
-	subtitle={dummyText}
+	// subtitle={dummyText}
 	dark={true}
 	id="section4"
 />
 
 				<Hobbysection
 					title="Hobbies"
-					subtitle={dummyText}
+					// subtitle={dummyText}
 					dark={true}
 					id="section3"
 				/>
 				<Picturesection
 					title="Photos"
-					subtitle={dummyText}
+					// subtitle={dummyText}
 					dark={true}
 					id="section2"
 				/>
 
 				<Contactsection
 					title="Links and Contact Info"
-					subtitle={dummyText}
+					// subtitle={dummyText}
 					dark={false}
 					id="section5"
 				/>
